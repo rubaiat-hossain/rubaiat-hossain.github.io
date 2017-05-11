@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          Rubaiat Hossain
 paginate:       5
 baseurl:        ""
 url:            "https://rshopnil.github.io"
