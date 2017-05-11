@@ -2,8 +2,6 @@
 published: true
 author: Rubaiat
 ---
-# Prime Numbers
-
 A number that is only divisible by 1 and itself is a **Prime number**.
 
 Primes are of interest since history finds it. Great mathmaticians devoted their lives to find the significance of these numbers.
