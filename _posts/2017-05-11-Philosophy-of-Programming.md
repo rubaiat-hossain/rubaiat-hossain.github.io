@@ -1,5 +1,6 @@
 ---
-published: false
+published: true
+author: Rubaiat
 ---
 Programming is the art of creating software/programs in order to do a specific task. There exists different languages and techniques for constructing these programs. 
 
