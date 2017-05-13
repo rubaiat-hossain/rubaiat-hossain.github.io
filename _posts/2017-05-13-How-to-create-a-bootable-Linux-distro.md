@@ -43,4 +43,6 @@ This step will take some time and won't print any output, so just wait and relax
 
 **##5**. If no errors encountered and you see the prompt, then congratulations! You got your own copy of a linux bootable distro
 
-The process is same for a dvd drive, USB's are more modular so it's great to have one or two of your favourite distros in USB to boot them anywhere you want. Kudos!
+The process is same for a dvd drive, USB's are more modular so it's great to have one or two of your favourite distros in USB to boot them anywhere you want.
+
+Well, that's it for today, check this blog out for further posts about development.
