@@ -10,7 +10,7 @@ Now, if you have already tried instructions from the internet and tried to do th
 
 This is a step by step guide, so watch carefully and do the following in order to get your own copy of a linux bootable distro!
  
-##1. First plug your USB and type in your terminal
+**##1**. First plug your USB and type in your terminal
 
 {%highlight bash%}
 # lsblk
@@ -18,9 +18,9 @@ This is a step by step guide, so watch carefully and do the following in order t
 
 This'll print all the devices mounted, the <USB_device> should be in the format **/dev/sdb** or **/dev/sdc**, not _/dev/sdb1_ or _/dev/sdc1_. **Caution:** Check the device name carefully or you might cause data erase from unwanted drive.
 
-##2. Download the ISO image of the distro of your choice. ISO images are basically the components of this distro bundled together as a single file.
+**##2**. Download the ISO image of the distro of your choice. ISO images are basically the components of this distro bundled together as a single file.
 
-##3. Now for injecting the MBR we need a tool called **isohybrid**. You can get this by typing in your terminal
+**##3**. Now for injecting the MBR we need a tool called **isohybrid**. You can get this by typing in your terminal
 
 {%highlight bash%}
 # sudo apt-get install isohybrid
@@ -32,7 +32,7 @@ After isohybrid is installed you need to make the MBR injection with it. Type in
 # isohybrid /path/to/ISO/image
 {%endhighlight bash%}
 
-##4. At this point the ISO can be written to the USB. To do this enter
+**##4**. At this point the ISO can be written to the USB. To do this enter
 
 {%highlight bash%}
 # dd if=/path/to/ISO/image of=/dev/<USB_device> bs=2048 && sync
@@ -41,6 +41,6 @@ After isohybrid is installed you need to make the MBR injection with it. Type in
 Note, that you need to specify the device name in place of the <USB_device>.
 This step will take some time and won't print any output, so just wait and relax.
 
-##5. If no errors encountered and you see the prompt, then congratulations! You got your own copy of a linux bootable distro
+**##5**. If no errors encountered and you see the prompt, then congratulations! You got your own copy of a linux bootable distro
 
 The process is same for a dvd drive, USB's are more modular so it's great to have one or two of your favourite distros in USB to boot them anywhere you want. Kudos!
