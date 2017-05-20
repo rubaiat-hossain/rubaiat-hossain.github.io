@@ -1,5 +1,6 @@
 ---
 published: true
+author: Rubaiat
 ---
 Here, I'm giving notes on some of the fundamental concepts common in every programming languages. These are common for a reason, every programming problem you'll face in your life needs these in one way or another. So, master these must-know concepts and then grab a reference book on a particular language. Then use these basic skills to solve problems(ever heard of [project euler](https://projecteuler.net/)??) Gradually increase the difficulty of the problems you're solving. Use the internet to research on hard problems, learn the skills needed to solve them from your reference book and please don't stop until you've come up with a solution!
 
