@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Often programmers are faced with the task of **counting digits** for a number with some special phenomena.
 Like, _how many digit's there for the factorial of a number **n** in base **b**_?? Here, the last part (factorial of n, in base b) represents the phenomena; for this specific attribute we need to count the number of digits present.
