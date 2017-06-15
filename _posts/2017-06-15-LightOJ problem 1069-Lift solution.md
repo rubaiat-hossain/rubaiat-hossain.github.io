@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 This is not a tough problem, just slightly tricky. I've commented out some error prone codes to demonstrate the tricky section.
 
