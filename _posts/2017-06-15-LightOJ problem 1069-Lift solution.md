@@ -10,7 +10,7 @@ This is not a tough problem, just slightly tricky. I've commented out some error
 
 I suggest you to try the problem yourself first. You should only see the solution when you're certain that you can't solve it. Below is the code I've written and used.
 
-{%hightlight cpp%}
+{%highlight cpp%}
 #include<bits/stdc++.h>
 using namespace std;
 
