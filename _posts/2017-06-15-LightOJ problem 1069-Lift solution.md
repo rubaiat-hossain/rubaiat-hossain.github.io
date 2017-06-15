@@ -1,6 +1,9 @@
 ---
 published: true
 ---
+**Problem source: LightOJ**
+**Problem no: 1069-Lift**
+
 This is not a tough problem, just slightly tricky. I've commented out some error prone codes to demonstrate the tricky section.
 
 I suggest you to try the problem yourself first. You should only see the solution when you're certain that you can't solve it. Below is the code I've written and used.
