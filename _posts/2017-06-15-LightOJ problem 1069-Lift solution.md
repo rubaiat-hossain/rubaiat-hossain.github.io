@@ -1,5 +1,6 @@
 ---
 published: true
+author: Rubaiat
 ---
 **Problem source: LightOJ**
 
