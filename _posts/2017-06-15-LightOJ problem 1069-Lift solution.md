@@ -2,6 +2,7 @@
 published: true
 ---
 **Problem source: LightOJ**
+
 **Problem no: 1069-Lift**
 
 This is not a tough problem, just slightly tricky. I've commented out some error prone codes to demonstrate the tricky section.
