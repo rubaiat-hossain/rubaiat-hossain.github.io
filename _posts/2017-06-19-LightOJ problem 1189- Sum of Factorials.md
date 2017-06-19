@@ -1,5 +1,6 @@
 ---
-published: false
+published: true
+author: Rubaiat
 ---
 Read the problem several times to understand the input constraints present. By observing deeply we can know for sure that, given the input size if small (the largest factorial we will need is **20!**) so here we can generate all the possible factorials and use **bitmasking (or recursion)** to pre-calculate all possible values and **cache** them ... then for every case we just _output the answer_.
 
