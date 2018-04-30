@@ -1,0 +1,23 @@
+---
+published: true
+title: Contact
+---
+<p>Hi,</p>
+
+<p>You can contact me through email: <a href="mailto:shopnil.lancer@gmail.com">shopnil.lancer@gmail.com</a></p>
+
+<p>Feel free to reach me!</p>
+
+<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
+     <a itemprop='url' href=https://www.fiverr.com/rubaiat rel="nofollow" target="_blank" style='display: inline-block;'>
+        <div class='fiverr-seller-content' id='fiverr-seller-widget-content-fb2bc070-0083-49f5-a24a-c8e63c1419bf' itemprop='contentURL' style='display: none;'></div>
+        <div id='fiverr-widget-seller-data' style='display: none;'>
+            <div itemprop='name' >rubaiat</div>
+            <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+            <div itemprop='jobtitle'>Seller</div>
+            <div itemprop='description'>Hi, I'm a CS graduate experienced in server side coding and penetration testing. I can write servers using Python, PHP & MEAN stack but mostly prefer MEAN stack. Computer security is my niche, I use Python for these tasks mostly.</div>
+        </div>
+    </a>
+</div>
+
+<script id='fiverr-seller-widget-script-fb2bc070-0083-49f5-a24a-c8e63c1419bf' src='https://widgets.fiverr.com/api/v1/seller/rubaiat?widget_id=fb2bc070-0083-49f5-a24a-c8e63c1419bf' data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
