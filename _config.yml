@@ -7,8 +7,6 @@ paginate:       5
 baseurl:        ""
 url:            "https://rshopnil.github.io"
 
-page: Contact
-url: /contact/
 
 # Assets
 sass:
