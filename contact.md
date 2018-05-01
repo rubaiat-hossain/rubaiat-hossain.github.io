@@ -2,6 +2,7 @@
 title: Contact
 layout: post
 permalink: /contact/
+author: Rubaiat
 published: true
 ---
 <p>Hi,</p>
