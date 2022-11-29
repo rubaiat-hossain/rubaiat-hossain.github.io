@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-author: Rubaiat
+author: Rubaiat Hossain
 permalink: /about/
 published: true
 ---
