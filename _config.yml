@@ -8,6 +8,9 @@ baseurl:        ""
 #url:            "https://rshopnil.github.io"
 url:            "http://rubaiat-hossain.com"
 
+# For sitemap.xml
+production_url: "http://rubaiat-hossain.com"
+
 # Assets
 sass:
   sass_dir:     _sass
