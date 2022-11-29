@@ -11,6 +11,7 @@ sitemap_exclude: y
     </url>
     {% endfor %}
 
+    
     {% for page in site.pages %}
     {% if page.sitemap_exclude != 'y' %}
     <url>
