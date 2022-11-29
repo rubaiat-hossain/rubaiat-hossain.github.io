@@ -34,3 +34,4 @@ author:
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-seo-tag    # for SEO
