@@ -5,8 +5,8 @@ permalink:      /:year-:month-:day/:title
 title:          Rubaiat Hossain
 paginate:       5
 baseurl:        ""
-url:            "https://rshopnil.github.io"
-
+#url:            "https://rshopnil.github.io"
+url:            "http://rubaiat-hossain.com"
 
 # Assets
 sass:
@@ -19,7 +19,8 @@ markdown:       kramdown
 # About
 author:
   name:         Rubaiat Hossain
-  url:          http://rshopnil.github.io
+  #url:          http://rshopnil.github.io
+  url:          http://rubaiat-hossain.com
   email:        mail@rubaiat-hossain.com
 
 # Custom vars
