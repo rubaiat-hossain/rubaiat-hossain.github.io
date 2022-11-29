@@ -20,12 +20,12 @@ markdown:       kramdown
 author:
   name:         Rubaiat Hossain
   url:          http://rshopnil.github.io
-  email:        shopnil.lancer@gmail.com
+  email:        mail@rubaiat-hossain.com
 
 # Custom vars
-version:        3.4.1
-github:
-  repo:         https://github.com/chesterhow/tale
+#version:        3.4.1
+#github:
+  #repo:         https://github.com/chesterhow/tale
 
 # Gems
 gems:
