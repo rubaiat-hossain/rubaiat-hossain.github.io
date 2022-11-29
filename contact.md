@@ -5,10 +5,4 @@ permalink: /contact/
 author: Rubaiat Hossain
 published: true
 ---
-<p>Hi,</p>
-
-<p>You can contact me through email: <a href="mailto:shopnil.lancer@gmail.com">shopnil.lancer@gmail.com</a></p>
-
-<p>Buy a gig from me <a href="https://www.fiverr.com/rubaiat">here</a></p>
-
-<p>Thanks!</p>
+Interested to learn more about me? Email me at mail@rubaiat-hossain.com to learn more about the services I provide or for general discussion. You may also follow me on [LinkedIn](https://www.linkedin.com/in/rubaiat-hossain-7aaa95144/) or [Twitter](https://twitter.com/LancerRubaiat).
