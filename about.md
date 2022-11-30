@@ -12,4 +12,5 @@ I’m Rubaiat Hossain, a software developer from Bangladesh. I’m an expert at 
 
 
 Read my articles on [MakeUseOf](https://www.makeuseof.com/author/rubaiat-hossain/)
-Read my articles on [MakeTechEasier](https://www.maketecheasier.com/author/rubaiat/)
+
+Read my articles on [Make Tech Easier](https://www.maketecheasier.com/author/rubaiat/)
