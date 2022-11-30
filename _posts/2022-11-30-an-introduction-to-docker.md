@@ -3,7 +3,7 @@ published: true
 author: Rubaiat Hossain
 ---
 
-# An Introduction to Docker
+
 Docker is a platform that allows developers to build, test, and ship applications
 effectively via packages called containers. A container is a standardized unit with
 everything needed to run an application, including the runtime, dependencies,
