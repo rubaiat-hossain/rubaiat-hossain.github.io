@@ -17,7 +17,7 @@ redundancies from different stages of development. Plus, a curated number of
 ready-made tools are available that make container management effortless and
 allow developers to focus on the outcome rather than the process.
 
-![docker-container-example](https://i.imgur.com/PvWUb7v.png)
+![docker-container-demo](https://i.imgur.com/PvWUb7v.png)
 
 ## Why Use Docker?
 
