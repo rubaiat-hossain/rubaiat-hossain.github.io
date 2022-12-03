@@ -27,7 +27,7 @@ following five reasons to use Docker for your next project.
 
 ### Ships Software Faster
 
-Docker containers give a head start by providing [ready-made container images](https://hub.docker.com/) that
+Docker containers give a head start by providing [ready-made container images](https://hub.docker.com/){:target="_blank"} that
 speed up the development process. You can create multi-platform applications
 without worrying about dependency errors or configuration issues centered around
 operating systems. Data shows that Docker users ship software 7X faster than their
@@ -49,7 +49,7 @@ providers support Docker and supply required tooling.
 
 ### Maintains CI/CD Benefits
 Containerized applications help enterprises reap the actual benefits of [CI/CD
-methodologies](https://www.redhat.com/en/topics/devops/what-is-ci-cd). Docker accelerates software deployment by removing conflicts
+methodologies](https://www.redhat.com/en/topics/devops/what-is-ci-cd){:target="_blank"}. Docker accelerates software deployment by removing conflicts
 between tech stacks. Since containers enforce standardized environments,
 developers don't need to deal with cross-environment bugs.
 
