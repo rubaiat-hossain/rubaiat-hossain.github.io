@@ -1,3 +1,6 @@
+
+
+
 ---
 layout: post
 title: About
@@ -9,7 +12,6 @@ published: true
 ““_To be a warrior is not a simple matter of wishing to be one. It is rather an endless struggle that will go on to the very last moment of our lives. Nobody is born a warrior, in exactly the same way that nobody is born an average man. We make ourselves into one or the other_.”” -**Carlos Castaneda**
 
 I'm a Linux system admin interested in the DevOps and Security niche. I've also been producing technical content for a long time. You can read some of my published work from the links below.
-
 
 - Articles for [MakeUseOf](https://www.makeuseof.com/author/rubaiat-hossain/){:target="_blank"}
 - Articles for [Make Tech Easier](https://www.maketecheasier.com/author/rubaiat/){:target="_blank"}
