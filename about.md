@@ -10,7 +10,9 @@ published: true
 
 I'm a Linux system admin interested in the DevOps and Security niche. I've also been producing technical content for a long time. You can read some of my published work from the links below.
 
+
 Articles for [MakeUseOf](https://www.makeuseof.com/author/rubaiat-hossain/){:target="_blank"}
+
 Articles for [Make Tech Easier](https://www.maketecheasier.com/author/rubaiat/){:target="_blank"}
 
 I'm currently working as a technical writer for [Draft.dev](https://draft.dev){:target="_blank"}. I primarily work with highly technical pieces but am comfortable with opinionated productions too. 
