@@ -14,7 +14,20 @@ I'm a Linux system admin interested in the DevOps and Security niche. I've also 
 - Articles for [MakeUseOf](https://www.makeuseof.com/author/rubaiat-hossain/){:target="_blank"}
 - Articles for [Make Tech Easier](https://www.maketecheasier.com/author/rubaiat/){:target="_blank"}
 
-I'm currently working as a technical writer for [Draft.dev](https://draft.dev){:target="_blank"}. I primarily work with highly technical pieces but am comfortable with opinionated productions too. 
+I'm currently working as a technical writer for [Draft.dev](https://draft.dev){:target="_blank"}. I primarily work with highly technical pieces but am comfortable with opinionated productions too. You can use my services for the following types of content.
+
+- Tutorials
+- Blog posts
+- White papers
+- Case studies
+- Product manuals
+
+Deliverables may vary depending on the content type and client requirement. I usually go great lenghts to make sure my clients are satisfied with the final work. You can expect the following as part of the deliverables.
+
+- Product screenshots
+- Code snippets
+- Demo project repository
+- Rough architecture diagrams
 
 So, feel free to [contact me](http://rubaiat-hossain.com/contact) if you're looking for a reliable engineer to produce in-depth technical content that successfully engages your audience and fulfills business objectives.
 
