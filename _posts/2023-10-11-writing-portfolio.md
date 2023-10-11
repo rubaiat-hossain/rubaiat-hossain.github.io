@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 author: Rubaiat Hossain
 tags:
   - technical-writing
