@@ -6,10 +6,10 @@ title:          Rubaiat Hossain
 paginate:       5
 baseurl:        ""
 #url:            "https://rshopnil.github.io"
-url:            "http://rubaiat-hossain.com"
+url:            "https://rubaiat-hossain.com"
 
 # For sitemap.xml
-production_url: "http://rubaiat-hossain.com"
+production_url: "https://rubaiat-hossain.com"
 
 # Assets
 sass:
@@ -23,7 +23,7 @@ markdown:       kramdown
 author:
   name:         Rubaiat Hossain
   #url:          http://rshopnil.github.io
-  url:          http://rubaiat-hossain.com
+  url:          https://rubaiat-hossain.com
   email:        mail@rubaiat-hossain.com
 
 # Custom vars
