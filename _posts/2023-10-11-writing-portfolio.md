@@ -7,9 +7,11 @@ tags:
 
 # Technical Writing Portfolio
 
-Here's a list of technical content I've published as a contractor working for [Draft.dev](draft.dev). This is a work in progress. So, feel free to come back later for more articles.
+Here's a list of technical content I've published as a contractor working for [Draft.dev](draft.dev). This is a work in progress, so feel free to come back later for more articles.
 
 ## Links
+
+[Tutorial: Observability Best Practices for DevOps Engineers](https://deploy.equinix.com/blog/tutorial-observability-best-practices-for-devops-engineers/)
 
 [Managing Kubernetes Cluster Sprawl](https://loft.sh/blog/managing-kubernetes-cluster-sprawl/)
 
