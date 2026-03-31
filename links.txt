@@ -1,4 +1,17 @@
+https://mogenius.com/blog-posts/securing-applications-using-keycloaks-helm-chart
+https://www.conductorone.com/guides/implementing-just-in-time-access-for-vms-in-microsoft-azure/
 https://pipekit.io/blog/how-to-integrate-prometheus-with-argo-workflows
 https://website.vcluster.com/blog/tutorial-how-to-spin-up-a-new-kubernetes-environment
 https://website.vcluster.com/blog/tutorial-how-ebpf-improves-observability-within-kubernetes
 https://website.vcluster.com/blog/managing-kubernetes-cluster-sprawl
+https://gcore.com/blog/resilio-vs-rsync
+https://snyk.io/blog/command-injection-python-prevention-examples/
+https://snyk.io/blog/implementing-tls-kubernetes/
+https://earthly.dev/blog/cmake-gcc-cross-compile/
+https://earthly.dev/blog/miniconda-venv/
+https://earthly.dev/blog/build-buildkit-cache/
+https://www.kentik.com/blog/troubleshooting-cloud-application-performance-a-guide-to-effective-cloud-monitoring/
+https://dev.to/openappsec/nginx-waf-alternatives-app-protect-vs-modsecurity-vs-open-appsec-325f
+https://saucelabs.com/resources/blog/jenkins-vs-bamboo-what-to-know-for-building-your-ci-cd-automated-pipeline
+https://dev.to/openappsec/aws-waf-vs-open-appsec-ml-based-open-source-waf-1egp
+https://www.makeuseof.com/author/rubaiat-hossain/
