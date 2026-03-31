@@ -1,0 +1,4 @@
+https://pipekit.io/blog/how-to-integrate-prometheus-with-argo-workflows
+https://website.vcluster.com/blog/tutorial-how-to-spin-up-a-new-kubernetes-environment
+https://website.vcluster.com/blog/tutorial-how-ebpf-improves-observability-within-kubernetes
+https://website.vcluster.com/blog/managing-kubernetes-cluster-sprawl
